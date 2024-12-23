@@ -62,7 +62,7 @@ func (s *MemoryStorage) GetAll() (orders []Order, err error) {
 
 }
 
-func (s *MemoryStorage) CashChecker(lifeTime int64) {
+func (s *MemoryStorage) CacheChecker(lifeTime int64) {
 	for {
 		time.Sleep(time.Duration(lifeTime) * time.Millisecond)
 		s.RLock()

@@ -80,7 +80,7 @@ func start(router *gin.Engine, cfg *config.Config, logger *logging.Logger) {
 	if err != nil {
 		logger.Fatal(err)
 	}
-	go memoryStorage.CashChecker(cfg.LifeTime)
+	go memoryStorage.CacheChecker(cfg.LifeTime)
 
 	handler := order.NewHandler(memoryStorage, logger, pool, brokerProducer)
 	handler.Register(router)
