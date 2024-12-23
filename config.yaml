@@ -1,0 +1,13 @@
+listen:
+  type: port
+  bind_ip: 0.0.0.0
+  port: 8080
+storage:
+  host: localhost
+  port: 5432
+  username: postgres
+  password: postgres
+  dbname: postgres
+brokers:
+  - localhost:9092
+life_time: 10000

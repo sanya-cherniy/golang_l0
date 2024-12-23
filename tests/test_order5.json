@@ -1,0 +1,50 @@
+{
+    "OrderUID": "678sdfsdf90-12345",
+    "TrackNumber": "TRACK555555",
+    "Entry": "third_entry",
+    "Delivery": {
+        "Name": "Alice Johnson",
+        "Phone": "+1122334455",
+        "Zip": "67890",
+        "City": "Chicago",
+        "Address": "789 Oak St",
+        "Region": "IL",
+        "Email": "alicejohnson@example.com"
+    },
+    "Items": [
+        {
+            "ChrtID": 5,
+            "TrackNumber": "TRACK555555",
+            "Price": 90,
+            "RID": "rid_55555",
+            "Name": "Product 5",
+            "Sale": 15,
+            "Size": "L",
+            "TotalPrice": 75,
+            "NMID": 5,
+            "Brand": "Brand E",
+            "Status": 1
+        },
+        {
+            "ChrtID": 6,
+            "TrackNumber": "TRACK555556",
+            "Price": 110,
+            "RID": "rid_55556",
+            "Name": "Product 6",
+            "Sale": 5,
+            "Size": "XL",
+            "TotalPrice": 105,
+            "NMID": 6,
+            "Brand": "Brand F",
+            "Status": 1
+        }
+    ],
+    "Locale": "en",
+    "InternalSignature": "signature_3",
+    "CustomerID": "customer_67890",
+    "DeliveryService": "DHL",
+    "Shardkey": "shard_3",
+    "SMID": 3,
+    "DateCreated": "2023-10-03T16:00:00Z",
+    "OOFShard": "oof_shard_3",
+}
